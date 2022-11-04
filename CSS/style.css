@@ -2,6 +2,25 @@
 #home{
     font-size: 14px;
     position: relative;
+
+}
+
+.home-navbar-contact{
+    display: flex;
+    border-bottom: 1px solid #999999;
+    margin: 0px 50px;
+    padding-right: 20px 0px;
+}
+
+.home-navbar-contact ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style-type: none;
+
+}
+
+.home-navbar-contact ul li{
+    margin: 0px 10px;
 }
 
 .home-navbar{
@@ -29,5 +48,9 @@
     font-family: 'Poppins', sans-serif;
     padding: 0px 20px;
     
+}
+
+.test{
+    box-sizing: content-box;
 }
 
