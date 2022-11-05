@@ -1,25 +1,46 @@
 .flex{
     display: flex;
-
 }
 
-.aligen-times-center{
+.align-itmes-center{
+    display: flex;
     align-items: center;
 }
 
 .justify-content-end{
+    display: flex;
     justify-content: flex-end;
 }
 
+.justify-content-start{
+    display: flex;
+    justify-content: flex-start;
+}
+
 .space-between{
+    display: flex;
     justify-content: space-between;
 }
 
 .justify-content-center{
+    display: flex;
     justify-content: center;
 }
 
-.flex-end{
+.align-content{
     display: flex;
-    justify-content: flex-end;
+    align-content: center;
 }
+
+.no-list{
+    text-decoration: none;
+}
+
+.gray{
+    color: #999999;
+}
+
+.height-20px{
+    height: 20px;
+}
+

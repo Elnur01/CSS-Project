@@ -15,12 +15,10 @@
 
 .col-2{
     width:calc((100%/12)*2);
-    border: 1px solid green;
 }
 
 .col-3{
     width:calc((100%/12)*3);
-    border: 1px solid blue;
 }
 
 .col-4{
@@ -29,7 +27,6 @@
 
 .col-5{
     width:calc((100%/12)*5);
-    border: 1px solid slateblue;
 }
 
 .col-6{
