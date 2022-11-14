@@ -8,9 +8,9 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/6d913287b8.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/CSS/layout.css">
-    <link rel="stylesheet" href="/CSS/style.css">
-    <link rel="stylesheet" href="/CSS/common.css">
+    <link rel="stylesheet" href="CSS/layout.css">
+    <link rel="stylesheet" href="CSS/common.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <title>Document</title>
 </head>
 <body>
@@ -21,17 +21,17 @@
     <section id="home">
         <div class="home-navbar-contact">
             <div class="container">
-                <div class="row space-between align-content">
-                    <div class="col-4 justify-content-start height-20px">
-                        <ul class="align-itmes-center">
-                            <li><p class="gray">+90 507 956 21 90</p></li>
-                            <li><a href="#">huseynove22@itu.edu.tr</a></li>
+                <div class="row space-between align-content height-20px"><!-- Hocam burada height-20px classını siləndə hove-navbar-contact(height) özü özündən genişlənir bilmirəm niyə -->
+                    <div class="col-5 justify-content-start align-items-center">
+                        <ul class="align-items-center">
+                            <li><p class="gray"><i class="fa-sharp fa-solid fa-phone icon padding-lef"></i> +90 507 956 21 90</p></li>
+                            <li><a href="#"> <i class="fa-sharp fa-solid fa-envelope icon padding-left"></i> huseynove22@itu.edu.tr</a></li>
                         </ul>
                     </div>
                 
-                    <div class="col-3 align-itmes-center height-20px">
+                    <div class="col-3 align-items-center row-reverse">
                         <ul>
-                            <li><a href="#">Azərbaycanca</a></li>
+                            <li><a href="#">Azərbaycanca <i class="fa-sharp fa-solid fa-chevron-down"></i></a></li>
                             <li><a href="#">Hesab</a></li>
                         </ul>
                     </div>
@@ -40,30 +40,33 @@
         </div>
         <div class="home-navbar">
             <div class="container">
-                <div class="row space-between align-itmes-center">
+                <div class="row space-between align-items-center">
                     <div class="col-2">
                         <div class="home-navbar-brand">
                             <a href="index.html">
-                                <img src="/images/logo.png" alt="logo" id="logo">
+                                <img src="images/logo.png" alt="logo" id="logo">
+                                <!-- və bu şəkilin yerini tənzimləyə bilmədim -->
                             </a>
                         </div>
                     </div>
                     <div class="col-5">
                         <div class="pages-search">
-                            <input type="text" placeholder="Search">
+                            <div class="category"><a href="#"><p>Kategoriyalar <i class="fa-sharp fa-solid fa-chevron-down"></i></p></i></a></div>
+                            <div class="search"><input type="text" placeholder="Search"></div>
+                            <div class="search-button"><button><i class="fa-sharp fa-solid fa-search color-white"></i></button></div>
                         </div>
                     </div>
                     <div class="col-2">
                         <div class="home-navbar-nav">
                             <ul>
-                                <li><a href="index.html">Müqayisə</a></li>
-                                <li><a href="index.html">Səbət</a></li>
+                                <li><a href="index.html"><i class="fa-sharp fa-solid fa-code-compare padding-bottom color-black"></i> Müqayisə</a></li>
+                                <li><a href="index.html"><i class="fa-sharp fa-solid fa-cart-shopping padding-bottom color-black"></i>Səbət</a></li>
                             </ul>
                         </div>   
                     </div>
                 </div>
             </div>
-
+        </div>
             <div class="pages">
                 <div class="container">
                     <div class="row">
@@ -71,7 +74,7 @@
                             <div class="pages-nav">
                                 <ul>
                                     <li><a href="index.html">Ana Səhifə</a></li>
-                                    <li><a href="index.html">Kataloq</a></li>
+                                    <li><a href="index.html">Kataloq <i class="fa-sharp fa-solid fa-chevron-down"></i></a></li>
                                     <li><a href="index.html">Haqqımızda</a></li>
                                     <li><a href="index.html">Əlaqə</a></li>
                                     <li><a href="index.html">Kampaniyalar</a></li>
@@ -80,14 +83,12 @@
                         </div>
                         <div class="col-4">
                             <div class="offer">
-                                <a href="#"><p>Bütün Mallara 10% Endirim</p></a>
+                                <a href="#"><p><i class="fa-solid fa-lightbulb padding-right"></i>  Bütün Mallara 10% Endirim</p></a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-
-        </div>
 
         <div class="home-slider">
             <div class="home-banner">
