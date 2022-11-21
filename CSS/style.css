@@ -400,6 +400,21 @@ h3{
     background-color: var(--main-color);
     width: 200px;
     padding: 50px 30px;
+    border-radius: 5px;
+    position: relative;
+}
+
+.heading-title:after{
+    content:"";
+    position:absolute;
+    top: 20px;
+    right:0;
+    border-top:29px solid transparent;
+    border-left:30px solid var(--main-color);
+    border-right:30px solid transparent;
+    border-bottom:30px solid transparent;
+    transform:translate(100%,0%)
+
 }
 
 .main-heading{
@@ -450,12 +465,16 @@ h3{
     align-items: center;
     justify-content: center;
     width: 250px;
-    height: 350px;
+    height: 330px;
     border-radius: 3px;
     margin: 0px 0px 30px 0px;
     cursor: pointer;
     text-decoration: none;
     background-color: rgb(255, 255, 255);
+}
+
+.product-list-item-price p{
+    margin: 0px;
 }
 
 .product-list-item img{
@@ -464,12 +483,17 @@ h3{
     object-fit: cover;
 }
 
+.product-item-img{
+    position: relative;
+}
+
+
 .product-list-item h3{
     color: #000000;
     font-size: 1em;
     font-weight: 300;
     text-decoration: none;
-    margin: 10px 0px;
+    margin: 10px 0px 5px 0px;
 }
 
 .product-list-item p{
@@ -477,12 +501,12 @@ h3{
     font-size: 1em;
     font-weight: 300;
     text-decoration: none;
-    margin: 10px 0px;
+    margin: 5px 0px;
 }
 
 .product-list-item button{
     width: 100%;
-    height: 50px;
+    height: 40px;
     background: var(--main-color);
     border: none;
     border-radius: 3px;
@@ -495,11 +519,23 @@ h3{
     cursor: pointer;
 }
 
+.product-list-item h4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--secondary-color);
+    font-size: 0.9em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 0px;
+}
+
 /* Label New */
 
 .label-new{
     position: absolute;
-    top: 0px;
+    top: 25px;
     left: 0px;
     width: 45px;
     height: 30px;
@@ -531,6 +567,7 @@ h3{
     align-items: center;
     justify-content: center;
     margin: 10px 0px;
+    height: 10px;
 }
 
 .rating i{
