@@ -514,6 +514,12 @@ h3{
     cursor: pointer;
     text-decoration: none;
     background-color: rgb(255, 255, 255);
+    transition: all 0.35s linear;
+    overflow: hidden;
+    padding:40px 10px;
+}
+.product-list-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .product-list-item-price p{
