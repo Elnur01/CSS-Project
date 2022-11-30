@@ -19,12 +19,21 @@ p{
     margin: 0;
 }
 
-h3{
+h2{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-size: 1.2em;
     margin: 0;
 }
+
+
+h3{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-size: 1.3em;
+    margin: 0;
+}
+
 
 /* Home Section Styles */
 #home{
@@ -287,6 +296,7 @@ h3{
     border: none;
     word-wrap: normal;
     text-transform: none;
+    cursor: pointer;
 }
 
 .vertical-menu-item input{
@@ -318,7 +328,6 @@ h3{
     border: 1px solid #E6E6E6;
     border-radius: 3px;
     margin: 0px 0px 0px 100px;
-    cursor: pointer;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     z-index: 8;
     text-decoration: none;
@@ -485,6 +494,14 @@ h3{
     margin: 0px 0px 30px 0px;
 }
 
+.top-product-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 30px;
+    margin: 0px 0px 30px 0px;
+}
+
 .product-list-item{
     display: flex;
     flex-direction: column;
@@ -602,90 +619,9 @@ h3{
     margin: 0px 2px;
 }
 
-/* Footer */
-
-footer{
-    background-color: var(--bg-dark);
-    padding: 50px 30px;
-    color: #fff;
+.section-header {
+    text-align: left;
+    position: relative;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #EEEEEE;
 }
-
-footer h3{
-    color: #fff;
-    font-size: 1.2em;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    margin-bottom: 40px;
-}
-
-footer p{
-    color: #fff;
-    font-size: 0.9em;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    margin-bottom: 40px;
-}
-
-footer .footer-links{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-
-footer .footer-links a{
-    color: #fff;
-    font-size: 0.9em;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    text-decoration: none;
-    margin-bottom: 10px;
-}
-
-footer .footer-links a:hover{
-    color: var(--secondary-color);
-}
-
-footer .footer-links .footer-links-item{
-    width: 150px;
-}
-
-footer .footer-links .footer-links-item h4{
-    color: #fff;
-    font-size: 0.9em;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
-footer .footer-links .footer-links-item .footer-links-item-list{
-    display: flex;
-    flex-direction: column;
-}
-
-footer .footer-links .footer-links-item .footer-links-item-list a{
-    color: #fff;
-    font-size: 0.9em;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
-    text-decoration: none;
-    margin-bottom: 10px;
-}
-
-footer .footer-links .footer-links-item .footer-links-item-list a:hover{
-    color: var(--secondary-color);
-}
-
-footer .footer-links .footer-links-item .footer-links-item-list .footer-links-item-list-item{
-    width: 150px;
-}
-
-footer .footer-links .footer-links-item .footer-links-item-list .footer-links-item-list-item h4{
-    color: #fff;
-    font-size: 0.9em;
-    font-family: 'Poppins', sans-serif;
-    font-weight: 600;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-}
-
